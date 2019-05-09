@@ -29,3 +29,15 @@ let persone={
          isClose = true;
 
          console.log(isChecked || isClose);
+
+
+         let num=50;
+         if(num<49){
+             console.log("Right")
+         } else if(num>100) {
+             console.log("not right")
+         }else{
+             console.log("Right")
+         };
+
+         (num == 50) ? console.log("True") : console.log("False");
